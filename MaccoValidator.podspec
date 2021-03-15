@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
   spec.license      = "MIT"
   spec.author             = { "Emmanuel Okwara" => "emma4real37@gmail.com" }
   spec.platform     = :ios, "13.0"
-  spec.source       = { :git => "https://github.com/patrickleonardus/podspeconly.git", :tag => spec.version.to_s }
+  spec.source       = { :http => "http://localhost:8082/artifactory/podspeconly/", :tag => spec.version.to_s }
   spec.source_files  = "MaccoValidator/**/*.{swift}"
   spec.swift_versions = "5.0"
 end
